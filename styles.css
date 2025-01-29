@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* 5 вариантов стилей для заголовка */
+.title-1 { font-family: 'Times New Roman', serif; font-size: 48px; color: #000408; }
+.title-2 { font-family: 'Arial Black', sans-serif; font-size: 42px; color: #ED131C; }
+.title-3 { font-family: 'Helvetica', sans-serif; font-size: 46px; color: #28a745; }
+.title-4 { font-family: 'Georgia', serif; font-size: 44px; color: #6610f2; }
+.title-5 { font-family: 'Verdana', sans-serif; font-size: 40px; color: #17a2b8; }
+
+.info-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.info-box {
+    background-color: #fff;
+    padding: 30px;  /* Увеличенный отступ */
+    border-radius: 15px;  /* Более округлые углы */
+    margin: 30px 0;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);  /* Более выраженная тень */
+}
+
+.info-box p {
+    font-size: 1.25rem;  /* Увеличенный размер текста */
+    line-height: 1.6;    /* Увеличенный межстрочный интервал */
+    color: #2c3e50;      /* Насыщенный цвет текста */
+    font-weight: 400;    /* Нормальная жирность шрифта */
+    margin: 0;
+    text-align: justify; /* Выравнивание текста по ширине */
+}
+
+/* Добавьте в styles.css */
+.info-box {
+    text-align: center; /* Центрирование заголовка */
+}
+
+.info-box h2 {
+    font-size: 2em; /* Увеличенный размер заголовка */
+    margin-bottom: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.address-block, .contacts-block, .schedule-block {
+    flex: 1;
+    min-width: 250px;
+}
+.address-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.address-item p {
+    margin: 0;
+    line-height: 1.4;
+    color: #2c3e50;
+}
